@@ -2,24 +2,8 @@
 
 ![Muñeco](https://github.com/user-attachments/assets/8094efc1-caa5-4d2f-a446-68bf274dc6c7)
 
-##Índice
+Aplicación Web que permite encriptar texto.
 
-*[Índice](#índice)
+Pagina desarrollada con tecnología HTML, CSS y JavaScript, cuya función es encriptar y desencriptar un texto, teniendo en consideración ciertas reglas a cumplir.
 
-*[Descripción del proyecto](#descripción-del-proyecto)
-
-*[Estado del proyecto](#Estado-del-proyecto)
-
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-
-*[Acceso al proyecto](#acceso-proyecto)
-
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
-
-*[Conclusión](#conclusión)
+La aplicación forma parte del primer Challenge propuesto por Alura Latam para las capacitaciones presentes en el programa elaborado por Oracle Next Education (ONE).
