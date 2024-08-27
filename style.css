@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 1rem;
+    margin-left: 1rem;
+    width: 10%;
+}
+
+.presentacion{
+    display: flex;
+    width: 50%;
+    gap: 5%;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+.text-area{
+    width: 25rem;
+    border-color: #0A3871;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    color: #0A3871;
+    margin-top: 4rem;
+    padding: 1rem;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #0A3871;}
+    .text-area:focus{
+    outline: none;
+    }
+
+.comentario{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #0A3871;
+}
+
+.botones{
+    text-align: center;
+}
+    
+.btn-encriptar{
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    background-color:#D133FF;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover{
+    background-color: #800080;
+}
+
+.btn-desencriptar{
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    background-color:#D133FF;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover{
+    background-color: #800080;
+}
+
+.contenedor__muñeco{
+    margin-top: 7rem;
+    width: 50%;
+}
+
+.desencriptador{
+    text-align: center;
+}
+
+.mensaje-encriptado{
+    width: 25rem;
+    margin-top: 4rem;
+    margin-right: 2.5rem;
+    padding: 1rem;
+    border-color: #0A3871;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    color: #0A3871;
+}
+
+.btn-copiar{
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    background-color:#D133FF;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    background-color: #800080;
+}
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 768px){
+    .presentacion{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        margin-right: 10%;
+    }
+    .text-area{
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor__muñeco{
+        margin-left: 25%;
+    }
+    .mensaje-encriptado{
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen (max-width: 375px){
+    .presentacion{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        margin: 5%;
+    }
+    .text-area{
+        width: 100%;
+        height: 100%;
+    }
+    .mensaje-encriptado{
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        justify-content: center;
+    }
+}
